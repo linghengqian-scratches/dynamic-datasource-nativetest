@@ -1,7 +1,7 @@
-package com.lingh.controller;
+package com.lingh.dynamicdatasourcenativetest.controller;
 
-import com.lingh.service.spel.User;
-import com.lingh.service.spel.UserService;
+import com.lingh.dynamicdatasourcenativetest.service.spel.User;
+import com.lingh.dynamicdatasourcenativetest.service.spel.UserService;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

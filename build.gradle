@@ -14,10 +14,10 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-web'
-    runtimeOnly 'com.h2database:h2'
+    testImplementation 'org.springframework.boot:spring-boot-starter-web'
+    testRuntimeOnly 'com.h2database:h2'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    implementation 'com.baomidou:dynamic-datasource-spring-boot-starter:3.6.1'
+    testImplementation 'com.baomidou:dynamic-datasource-spring-boot-starter:3.6.1'
 }
 
 tasks.named('test') {

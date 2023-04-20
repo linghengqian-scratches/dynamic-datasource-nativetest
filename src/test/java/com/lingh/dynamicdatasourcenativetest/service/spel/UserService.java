@@ -1,4 +1,4 @@
-package com.lingh.service.spel;
+package com.lingh.dynamicdatasourcenativetest.service.spel;
 
 import com.baomidou.dynamic.datasource.annotation.DS;
 import com.baomidou.dynamic.datasource.toolkit.DynamicDataSourceContextHolder;

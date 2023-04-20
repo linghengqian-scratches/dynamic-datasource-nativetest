@@ -1,4 +1,4 @@
-package com.lingh.service.spel;
+package com.lingh.dynamicdatasourcenativetest.service.spel;
 
 public record User(Integer id, String name, Integer age, String tenantName) {
     public User(String tenantName) {
